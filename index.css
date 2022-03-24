@@ -8,22 +8,30 @@ body{
     background-image: url('https://storage.googleapis.com/academia-geek-general-bucket/modulo-3/modulo_3_reto_3_1.png');
     background-size: cover;  
 }
-.card-character{
-    display: inline-block;
-    width: 20%;
-    padding: 10px;
-    border-radius: 20px;
-    background-color: #363636;
-    margin: 10px 10px
+.btn{
+background: #3498db;
+  width: 180px;
+  padding: 4px 0;
+  border-radius: 25px;
+  position:static;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.card-character:hover{
-    -webkit-transform:scale(1.1);
-    -moz-transform:scale(1.1);
-    -ms-transform:scale(1.1);
-    -o-transform:scale(1.1);
-    transform:scale(1.1);
-    box-shadow: 2px 0px 26px 1px #000000;
+
+.container{
+    margin-top:150px; 
+    margin-left:350px; 
+    box-sizing: border-box;
+    width: 30%; 
+    border-radius: 25%;
+    align-self: center;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
 }
-.containerInfo{
-    margin:10px
+img{
+    width: 100%;
 }
